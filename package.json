@@ -1,0 +1,11 @@
+{
+  "name": "icon.js",
+  "version": "0.0.0",
+  "description": "A JavaScript abstract syntax tree and code generator (for now)",
+  "main": "icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Kibbel",
+  "license": "MIT"
+}
