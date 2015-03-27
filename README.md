@@ -3,7 +3,7 @@ A JavaScript abstract syntax tree and code generator
 
 ## Example
 
-Consider the following brute-force (*O(fib(N)), oh my!*) recursion for
+Consider the following brute-force (*O(fib(n)), oh my!*) recursion for
 calculating Fibonacci numbers:
 
 ```javascript
@@ -163,7 +163,7 @@ var fib=function(n){return n<2?n:fib(n-1)+fib(n-2);};
 ## Why?
 
 We already have a well-accepted "standard" for JavaScript ASTs from Mozilla's
-SpiderMonkey, used by **esprima**, **escodegen** and many JavaScript code
+**SpiderMonkey**, used by **esprima**, **escodegen** and many JavaScript code
 analysis and transpiler tools. However, the AST from this world is dense and
 burdened with myriad, heavyweight nodes for representing syntax from the past
 and future of JavaScript, along with parser metadata.
