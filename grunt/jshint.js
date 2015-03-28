@@ -26,6 +26,7 @@ module.exports = {
             globalstrict: true,
             globals: {
                 __filename: true,
+                global: true,
                 module: true,
                 require: true
             }
